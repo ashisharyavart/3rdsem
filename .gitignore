@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Packaging build artifacts
+build/
+dist/
+*.manifest
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite databases & config generated at runtime
+*.db
+threat_history.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+[Ee]sktop.ini
+*.log
